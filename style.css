@@ -1,0 +1,10 @@
+/* Mobile View */
+
+@media screen and(max-width:600px) {
+   
+.textss{
+    display: none;
+ }
+    
+}
+
