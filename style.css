@@ -1,10 +1,14 @@
 /* Mobile View */
 
-@media screen and(max-width:600px) {
+@media screen and (max-width: 500px) {
    
 .textss{
     display: none;
- }
-    
-}
+ } 
 
+
+ .touch{
+position: absolute;
+margin-left: 20rem;
+ }
+}
