@@ -1,14 +1,137 @@
+
+@import
+ url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* Mobile View */
 
 @media screen and (max-width: 500px) {
-   
-.textss{
+  body {
+    background-color: skyblue;
+  }
+
+  .textss {
     display: none;
- } 
+  }
+
+  .touch{
+    position: absolute;
+    margin-left: 19rem;
+  }
+
+  
+   .card-img-top{
+    position: relative;
+    margin-bottom: 20px;
+    width: 18rem;
+    margin-top: 30px;
+   } 
+
+   .firstname{
+    align-items: center;
+    margin-left: 3rem;
+
+   }
+
+   .lastname{
+    align-items: center;
+    margin-left: 3rem;
+   }
+
+   .phone{
+    align-items: center;
+    margin-left: 3rem;
+   }
+
+   .calendar{
+    align-items: center;
+    margin-left: 4rem;
+   }
+
+   .button{
+    align-items: center;
+    margin-left: 6rem;
+    margin-top: 2rem;
+   }
+
+  .img{
+    width: 30px;
+  }
+
+  
+
+  
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 1200px) {
+  .big {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textss{
+    justify-content: space-between;
+
+}
+ 
 
 
- .touch{
-position: absolute;
-margin-left: 20rem;
- }
+  /* .whole{ */
+    /* margin-left: 30rem; */
+    /* margin-top: 50px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* } */
+
+  .touch {
+    display: none;
+  }
+
+  .card-body {
+    width: 25rem;
+    background-color: whit;
+  }
+
+  .everything {
+    background-color: #DEF1F9;
+  }
+
+  .firstname{
+    width: 510px;
+    height: 74px;
+  }
+
+  .lastname{
+    width: 510px;
+    height: 74px;
+  }
+
+  .phone{
+    width: 510px;
+    height: 74px;
+  }
+
+  .calendar{
+    width: 510px;
+    height: 74px;
+  }
+
+  .button{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .top{
+background-color: #FFF;
+  }
+
+  .foot{
+    background-color: #1E3673;
+  }
 }
